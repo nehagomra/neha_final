@@ -1,0 +1,56 @@
+
+.w3school{
+	float:left;
+	font-family:fantasy;
+	color:#555555;
+	font-size:22pt;
+	
+}
+.site_text{
+	color:#5F5F5F;
+	font-family:Californian FB;
+	float:right;
+	font-size:20px;
+	 
+}
+/* nav{display:block;} */
+.navigation{clear: both;
+    font-family:Arial Unicode MS;	
+	background:gray;
+    height: 46px;
+}
+nav{ float:left;
+padding:13px 10px;}
+
+a{text-decoration:none;
+    font-size:17px;
+	color:white;
+	    padding: 10px 15px 9px 15px ;
+		letter-spacing:1px;
+}
+
+.navigatn{
+	float:right;
+	font-family:Arial Unicode MS;
+	
+}
+select{    padding: 13px 10px;
+	background: transparent;
+    border: none;
+	   font-size:17px;
+	   color:white;
+	 
+	   letter-spacing:1px;
+}select:hover{    padding: 13px 10px;
+	background: black;
+    border: none;
+	   font-size:17px;
+	   color:white;
+	   letter-spacing:1px;
+}
+nav a:hover {
+	background-color:black;	
+}
+/* .option
+.option:hover{background:black;} */
+	
