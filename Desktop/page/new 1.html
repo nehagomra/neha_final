@@ -1,0 +1,87 @@
+<!DOCTYPE>
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="new 2.css">
+</head>
+<body><div>
+<div class="container">
+  <h1>Transactions Result Page</h1>
+    <hr>
+<div class="row select-boxes">
+   <div class="paymentstatus">
+    <label for="ps"><b>Payment Status</b></label>
+        <select id="ps" name="payment-status" class="form-control">
+            <option value="all">All</option>
+            <option value="Initiated">Initiated</option>
+            <option value="Failed">Failed</option>
+            <option value="Success">Success</option>
+            <option value="Refunded">Refunded</option>
+            <option value="Dropped">Dropped</option></select>
+</div>
+<div class="itemsperpage">
+    <label for="pagination-pages"><b>Items Per Page</b></label>
+        <select id="pagination-pages" name="pagination-pages" class="form-control">
+			<option value="1">1</option> 
+			<option value="2">2</option> 
+			<option value="3">3</option>
+			<option value="4">4</option> 
+			<option selected value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option> 
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option> 
+			<option value="11">11</option> 
+			<option value="12">12</option> 
+			<option value="13">13</option>
+			<option value="14">14</option> 
+			<option value="15">15</option>
+			</select></div></div>
+
+ <table>
+    <tr>
+        <th>PaymentID</th>
+        <th>Order Date</th>		
+        <th>Merchant ID</th>
+	    <th>Customer Email</th>
+	    <th>Amount</th>
+	    <th>Payment Status</th>
+      </tr>
+    <tr>
+        <td>435466</td>
+        <td>6/21/2015</td>		
+        <td>3289</td>
+	    <td>rahul@gmail.com</td>
+	    <td>122.66</td>
+	    <td>Failed</td>
+    </tr>
+  <tr>
+        <td>435456 </td>
+	    <td>5/11/2015 </td>
+	    <td>3245 </td>	
+	    <td>varun@gmail.com</td>
+        <td>234.56 </td>
+        <td>Initiated </td>
+    </tr>
+  <tr>
+        <td>112345</td>
+        <td>8/24/2015</td>
+ 	    <td>3245</td>
+	    <td>sapna@gmail.com</td>
+        <td>567.96</td>
+	    <td>Refunded</td>
+    </tr>
+  <tr>
+        <td>435459</td> 
+	    <td>2/23/2015</td>
+	    <td>4567</td>	
+	    <td>alok@gmail.com</td>	
+	    <td>4567.33</td>	
+	    <td>Initiated</td>
+</table>
+<input type="button" class="formcontrol" id="prev" value="Prev" disabled="disabled">
+<input type="button" class="formCntrol" id="next" value="Next">
+</div>
+</div>
+</body>
+</html>
